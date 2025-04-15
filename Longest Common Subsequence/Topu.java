@@ -17,15 +17,16 @@ public class Topu{
         return (l1 > l2) ? l1 : l2;
     }
 public static void main(String arg[]){
-    Topu lcs=new Topu();
-String x="bcdf";
-String y="bach";
+Topu lcs=new Topu();
+String x="ABCDEFGH";
+String y="abcdefgh";
  
 char arr1[]=x.toCharArray();
 char arr2[]=y.toCharArray();
 
 int len1=arr1.length;
 int len2=arr2.length;
+System.out.println("LCS for the sequences  ABCDEFGH and abcdefgh is:");
 System.out.print(lcs(arr1, arr2, len1, len2));
 
 }
