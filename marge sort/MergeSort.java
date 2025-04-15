@@ -22,7 +22,7 @@ public class MergeSort {
 
         
         while (i < l && j < r) {
-            if (leftArray[i] >= rightArray[j]) {
+            if (leftArray[i] <= rightArray[j]) {
                 arr[k] = leftArray[i];
                 i++;
             } else {
