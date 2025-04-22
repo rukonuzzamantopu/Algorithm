@@ -78,7 +78,7 @@ public class Dijkstras {
         int src = 0;
         int dist[] = dijkstra(graph, src);
         for (int i = 0; i < dist.length; i++) {
-            System.out.println(dist[i] + " ");
+            System.out.print(dist[i] + " ");
         }
     }
 }
